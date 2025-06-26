@@ -28,6 +28,16 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.serengeti_aws_github_2606.integrations:gcdaz
+  packages:
+  - name: Serengeti_AWS_Github_2606Project
+    version: "1.0"
+  - name: AddIntsPackage
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2061
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
